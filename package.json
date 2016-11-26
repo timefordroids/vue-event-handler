@@ -1,0 +1,28 @@
+{
+  "name": "vue-event-handler",
+  "version": "1.0.0",
+  "description": "A pretty simple event handling for Vue.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel --presets=es2015 -d dist src"
+  },
+  "keywords": [
+    "Vue",
+    "Vue.js",
+    "events"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timefordroids/vue-event-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/timefordroids/vue-event-handler/issues"
+  },
+  "homepage": "https://github.com/timefordroids/vue-event-handler#readme",
+  "author": "Denis Korablev <timefordroids@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
